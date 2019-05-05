@@ -1,0 +1,38 @@
+@charset "UFT-8";
+.main-menu {
+	display: flex;
+	display: -webkit-flex;
+}
+.menu-link {
+	font-weight: bold;
+	color: #050402;
+	display: block;
+	padding: 10px;
+}
+.menu-link:hover {
+	background-color: #f80000;
+	color: #050402;
+}
+.main-menu {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+}
+/* Stili navigazione varianti  */
+.end {
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+.center {
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+.between {
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.around {
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+}
